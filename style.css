@@ -1,0 +1,46 @@
+.playerHand, .computerHand{
+margin:50px 50px 50px 50px;
+width: 150px;
+height: 150px;
+}
+.playerHand{
+
+transform: rotateY(180deg);
+}
+
+.rock, .paper, .scissor{
+background-color: rgb(189, 172, 172);
+margin:50px 50px 50px 50px;
+padding: 6px;
+
+}
+
+.cscore, .pscore{
+color: white;
+display: inline-block;
+
+}
+.cscore{
+
+float: right;
+}
+
+body{
+
+width: 650px;
+margin: 0 auto;
+background-color: rgb(39, 41, 68);
+}
+
+#choose {
+
+color: white;    
+text-align: center;
+}
+.computerHand{
+float: right;
+}
+.options{
+text-align: center;
+
+}
